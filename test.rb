@@ -12,3 +12,11 @@ puts friends
 p friends
 
 
+
+
+# Get users input
+puts "What is your name?"
+name = gets
+p name 
+
+# What's out because it will be saved 'panos\n'
