@@ -20,3 +20,4 @@ name = gets
 p name 
 
 # What's out because it will be saved 'panos\n'
+
