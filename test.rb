@@ -69,4 +69,9 @@ puts
 str = 'hello'
 puts str.upcase
 str = 'hello'
-puts str.to_sym
+puts str.insert(1,'ZA WARUDO')
+
+
+# Numbers
+total = (2 * 4)/(2**2)
+puts total
