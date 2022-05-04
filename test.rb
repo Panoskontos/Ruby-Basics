@@ -94,4 +94,15 @@ puts a<=b
 puts a==c
 
 p 12>6 && 30==15
+# p 12>6 and 30==15 print true which is weird
 p 12>6 || 30==15
+p !(12>5)
+
+
+# Methods and Functions
+
+def printName(name)
+    puts "using function for name #{name}" 
+end
+
+printName("Nikolo Makiaveli")
