@@ -106,10 +106,19 @@ def printName(name)
 end
 
 def mymath(a,b)
+    # even if you don't return it returns it
     return a * b * a * b
+end
+
+# example with default
+def printNameWithDefault(name="Panos")
+    puts "My name is #{name}"
 end
 
 printName("Nikolo Makiaveli")
 
 total = mymath(2,3)
 puts total
+
+printNameWithDefault()
+
