@@ -178,3 +178,7 @@ printMyName["Panos"]
 
 printMyAge = Proc.new do |age| puts "My age is #{age}" end
 printMyAge[30]
+
+# example using procs
+quickmath = Proc.new { |x,y| puts ((x**y)/2)+4 }
+quickmath[5,5]
