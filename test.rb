@@ -52,3 +52,21 @@ BMW = "M3"
 BMW = "M5"
 
 puts BMW
+
+# Strings combining with variables
+puts "what is your name?"
+# fname = gets
+fname = 'Panos'
+age = 25
+fav_color = 'Blue'
+# only double quotes work for that not single
+print "my name is #{fname} and i'm #{age} years old i was born in #{1990+6} my favourite color is #{fav_color}"
+
+
+# Trying string methods
+# https://ruby-doc.org/core-3.1.2/String.html
+puts 
+str = 'hello'
+puts str.upcase
+str = 'hello'
+puts str.to_sym
