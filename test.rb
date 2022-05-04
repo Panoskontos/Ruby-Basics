@@ -75,3 +75,11 @@ puts str.insert(1,'ZA WARUDO')
 # Numbers
 total = (2 * 4)/(2**2)
 puts total
+
+# Number methods
+# https://ruby-doc.org/core-3.1.0/Integer.html
+puts 10.even?
+puts 10.gcd(30)
+puts 11.lcm(30)
+puts 1.23341.round(2)
+
