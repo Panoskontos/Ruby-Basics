@@ -148,3 +148,21 @@ def printUsers *users
 end
 
 printUsers("Jow", "Charlie","Ben","Bravo")
+
+
+
+# Passing hash as arguments
+data = {
+    "Jow":30,
+    "Charlie:":26,
+    "Ben":23,
+    "Bravo":21
+}
+
+def printUsersAge users
+    users.each do |user,age|
+        puts "User: #{user} Age: #{age}"
+    end
+end
+
+printUsersAge data
