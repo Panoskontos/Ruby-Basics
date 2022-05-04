@@ -115,6 +115,13 @@ def printNameWithDefault(name="Panos")
     puts "My name is #{name}"
 end
 
+# example with params without parenthesis
+def mymath4 a,b,c,d=1
+    return a*b*c*d
+end
+
+
+
 printName("Nikolo Makiaveli")
 
 total = mymath(2,3)
@@ -122,3 +129,4 @@ puts total
 
 printNameWithDefault()
 
+puts mymath4(1,2,3,4)
