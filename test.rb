@@ -105,4 +105,11 @@ def printName(name)
     puts "using function for name #{name}" 
 end
 
+def mymath(a,b)
+    return a * b * a * b
+end
+
 printName("Nikolo Makiaveli")
+
+total = mymath(2,3)
+puts total
