@@ -83,3 +83,15 @@ puts 10.gcd(30)
 puts 11.lcm(30)
 puts 1.23341.round(2)
 
+# Ruby operators
+# https://www.tutorialspoint.com/ruby/
+a = 2
+b = 40
+c=2
+# comparison
+puts a!=b
+puts a<=b
+puts a==c
+
+p 12>6 && 30==15
+p 12>6 || 30==15

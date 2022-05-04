@@ -3,6 +3,11 @@ Why to learn Ruby?
 https://www.similartech.com/categories/framework
 
 
+General link for Ruby
+
+https://www.tutorialspoint.com/ruby/
+
+
 Link for string methods
 
 https://ruby-doc.org/core-3.1.2/String.html
@@ -11,3 +16,4 @@ https://ruby-doc.org/core-3.1.2/String.html
 Link for integer methods
 
 https://ruby-doc.org/core-3.1.0/Integer.html
+
