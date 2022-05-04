@@ -140,3 +140,11 @@ puts mymath4(1,2,3,4)
 puts mymath5 a:1, b:2, c:3
 
 
+# Splats
+# What to do if you have too many arguments
+def printUsers *users
+    # Puts all our arguments inside an array
+    p users
+end
+
+printUsers("Jow", "Charlie","Ben","Bravo")
