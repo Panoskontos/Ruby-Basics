@@ -115,9 +115,14 @@ def printNameWithDefault(name="Panos")
     puts "My name is #{name}"
 end
 
-# example with params without parenthesis
+# example with params without parenthesis (Ruby way)
 def mymath4 a,b,c,d=1
     return a*b*c*d
+end
+
+# example with params without parenthesis mixed
+def mymath5 a:, b:, c:
+    return a+b+c
 end
 
 
@@ -130,3 +135,8 @@ puts total
 printNameWithDefault()
 
 puts mymath4(1,2,3,4)
+
+#  way eith no parenthesis only if function is like that
+puts mymath5 a:1, b:2, c:3
+
+
