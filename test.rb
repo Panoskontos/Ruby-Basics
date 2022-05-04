@@ -166,3 +166,15 @@ def printUsersAge users
 end
 
 printUsersAge data
+
+
+# Procs
+# 1 liner functions <3 with 2 ways
+
+# Whenever is something simple use 1 liner procs
+
+printMyName = Proc.new { |name| puts "My name is #{name}"}
+printMyName["Panos"]
+
+printMyAge = Proc.new do |age| puts "My age is #{age}" end
+printMyAge[30]
