@@ -35,3 +35,20 @@ x = 1
 end
 
 puts $y
+
+
+# We will use it on Frameworks
+@names = ['Jane','John']
+puts @names
+
+
+# Classes
+class Cars
+    @@title = "Honda"
+end
+
+# Constants that can be changed for some reason!
+BMW = "M3"
+BMW = "M5"
+
+puts BMW
