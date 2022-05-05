@@ -257,7 +257,13 @@ user = {
     :name => 'panos',
     :age => 26,
     :job => 'developer',
+    :extra => {
+        :height => '1,75',
+        :weight => '80'
+    }
 }
 
 # how to access them
 p user[:name]
+# multiple objects
+p user[:extra][:height]
