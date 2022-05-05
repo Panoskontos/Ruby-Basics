@@ -208,5 +208,22 @@ end
 puts times(2) {20}
 
 
-# Collections
+# Collections or Arrays
 
+x = ["Nick","Richard","Leonard",[1,2,3], 23, 2.34, {'name':'panos'}]
+
+p x[3][0]
+
+# Other way to create array is
+myArray = Array.new
+myArray[0] = 21
+myArray[2] = 21
+myArray[2] = 31
+p myArray
+p myArray.length
+myArray.push(11)
+p myArray.length
+
+arr = [1,2,3,4]
+p arr.map {|a| 2*a}
+ 
