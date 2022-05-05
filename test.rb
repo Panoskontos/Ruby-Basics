@@ -235,5 +235,8 @@ arr.delete_if {|x| x>3}
 arr = [1,2,3,4,5]
 arr = arr.shuffle()
 arr = arr.sort()
-p arr
 # You can use length, reverse, shuffle,sort
+
+# map , it is similar to one of javascript
+arr = arr.map {|x| (3*x) + 2**x }
+p arr
