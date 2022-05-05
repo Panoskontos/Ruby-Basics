@@ -195,3 +195,18 @@ add6 = add4[6]
 
 puts add6
 
+# Ruby blocks
+3.times do
+    puts 'hello'
+end
+
+# Building our own blocks (Don't know why)
+def times number
+    number * yield
+end
+
+puts times(2) {20}
+
+
+# Collections
+
