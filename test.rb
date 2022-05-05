@@ -249,3 +249,15 @@ arr = arr.concat(arr2)
 # You can always combine methods!! wow
 arr = arr.uniq.sort.reverse.map {|x| x**2}
 p arr 
+
+
+# hash
+
+user = {
+    :name => 'panos',
+    :age => 26,
+    :job => 'developer',
+}
+
+# how to access them
+p user[:name]
