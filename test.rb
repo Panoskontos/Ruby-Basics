@@ -224,6 +224,10 @@ p myArray.length
 myArray.push(11)
 p myArray.length
 
-arr = [1,2,3,4]
+arr = [1,2,3,4,1]
 p arr.map {|a| 2*a}
- 
+
+arr.delete(1)
+# methods within delete
+arr.delete_if {|x| x>3}
+p arr
