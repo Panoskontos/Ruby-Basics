@@ -240,3 +240,12 @@ arr = arr.sort()
 # map , it is similar to one of javascript
 arr = arr.map {|x| (3*x) + 2**x }
 p arr
+
+
+# concat
+arr2 = [11,11,11,11]
+arr = arr.concat(arr2)
+# uniq
+# You can always combine methods!! wow
+arr = arr.uniq.sort.reverse.map {|x| x**2}
+p arr 
