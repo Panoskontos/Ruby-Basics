@@ -17,3 +17,7 @@ Link for integer methods
 
 https://ruby-doc.org/core-3.1.0/Integer.html
 
+
+Links for array
+
+https://ruby-doc.org/core-3.1.0/Array.ht 

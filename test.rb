@@ -230,4 +230,10 @@ p arr.map {|a| 2*a}
 arr.delete(1)
 # methods within delete
 arr.delete_if {|x| x>3}
+
+
+arr = [1,2,3,4,5]
+arr = arr.shuffle()
+arr = arr.sort()
 p arr
+# You can use length, reverse, shuffle,sort
