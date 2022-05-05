@@ -267,3 +267,13 @@ user = {
 p user[:name]
 # multiple objects
 p user[:extra][:height]
+
+# injecting
+user[:status] = "married"
+# updating
+user[:job] = "senior developer"
+p user
+
+# get all keys
+p user.keys
+p user.values
