@@ -182,3 +182,13 @@ printMyAge[30]
 # example using procs
 quickmath = Proc.new { |x,y| puts ((x**y)/2)+4 }
 quickmath[5,5]
+
+
+# Lambda Functions
+# When to use lambdas 
+adder = ->(x) { ->(y) { x + y } }
+
+add4 = adder[4]
+add6 = add4[6]
+
+puts add6
