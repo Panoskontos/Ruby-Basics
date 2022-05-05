@@ -186,9 +186,12 @@ quickmath[5,5]
 
 # Lambda Functions
 # When to use lambdas 
+# Functions inside function that keep things inside of a scope
+# More advanced don't bother
 adder = ->(x) { ->(y) { x + y } }
 
 add4 = adder[4]
 add6 = add4[6]
 
 puts add6
+
