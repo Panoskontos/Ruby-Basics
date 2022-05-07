@@ -327,10 +327,19 @@ data = {
         2 => "Pavlopoulos",
         3 => "Raul",
         10 => "Melo",
-    }
+    },
     :PAOK => {
         2 => "Anastasopoulos",
         3 => "Rico",
         10 => "Venga",
     }
 }
+
+data.each do | team, players |
+    p '#### TEAM #####'
+    p team
+    p "###### PLAYERS"
+    players.each do |num, player|
+        p player
+    end
+end
