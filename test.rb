@@ -321,7 +321,7 @@ hash.each { |key, value|
     p value
 }
 
-# Nested Loops
+# Nested Hash Loops
 data = {
     :AEK => {
         2 => "Pavlopoulos",
@@ -343,3 +343,11 @@ data.each do | team, players |
         p "#{num} " "#{player}"
     end
 end
+
+
+# Nested Arrays Loop
+users = [
+    ["Joe","21","LA"],
+    ["Pit","26","NY"],
+    ["Panos","26","ATH"],
+]
