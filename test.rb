@@ -340,6 +340,6 @@ data.each do | team, players |
     p team
     p "###### PLAYERS"
     players.each do |num, player|
-        p player
+        p "#{num} " "#{player}"
     end
 end
