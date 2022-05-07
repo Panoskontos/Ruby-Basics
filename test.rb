@@ -457,6 +457,10 @@ class Animal
     def printName
         p "The name of the animal is #{@name}"
     end
+
+    def CreatedBy
+        p 'was created by Panos'
+    end
 end
 
 class Cat < Animal
@@ -464,7 +468,15 @@ class Cat < Animal
     def initialize(name)
         @name = name
     end
+
+    # super
+    # when you have same methods
+    def CreatedBy
+        # get the method that is inside of the parent class
+        p super + 'was created by Cat'
+    end
 end
 
 kotuk = Cat.new("Kallas")
 kotuk.printName
+kotuk.CreatedBy
