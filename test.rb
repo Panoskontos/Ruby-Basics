@@ -299,6 +299,20 @@ end
 
 # array iteration
 users = ["Joe","Nick","Mark"]
+
+# 2 ways
+# regular
 users.each do |x|
     puts x
 end
+
+# 1 liner
+users.each { |x| p x }
+
+# hash looping
+hash = {
+    :name => "Panos",
+    :age => 26,
+    :location => "ATH"
+}
+
