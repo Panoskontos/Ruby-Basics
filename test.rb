@@ -280,6 +280,14 @@ p user.values
 
 
 # loops
-for i in 0..100
+# for loop
+for i in 0..10
     puts i
+end
+
+# while loop
+i=0
+while i<10 do
+    puts i
+    i+=1
 end
