@@ -368,3 +368,10 @@ users.each {|x| x.each { |y| p y}}
  else 
     p "all bad"
  end
+
+#  Unless (Opposite of if)
+unless (a>b)
+    p "Unless true"
+else
+    p "Unless false"
+end
