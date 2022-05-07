@@ -431,7 +431,8 @@ class Vehicle
         p "You just bought a new #{name}"
     end
 
-    # class methods that will give class info
+    # class methods 
+    # these will give you general class info
     def self.printType
         p "This is a class for Vehicles"
     end
@@ -449,3 +450,21 @@ car.printInfo
 
 Vehicle.printType
 Vehicle.printTotalInstances
+
+
+# Class Inheritance
+class Animal
+    def printName
+        p "The name of the animal is #{@name}"
+    end
+end
+
+class Cat < Animal
+    attr_accessor :name
+    def initialize(name)
+        @name = name
+    end
+end
+
+kotuk = Cat.new("Kallas")
+kotuk.printName
