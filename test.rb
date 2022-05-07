@@ -400,3 +400,20 @@ car2 = 6000
 # 1 liner if <3
 total = (car1 < car2) ? "It is cheap" : "It is expensive"
 p total
+
+# class
+
+class Vehicle
+    # initialize
+    def initialize(name)
+        @name = name
+    end
+    
+    # method
+    def printInfo
+        p @name
+    end
+end
+
+car = Vehicle.new("Honda")
+car.printInfo
