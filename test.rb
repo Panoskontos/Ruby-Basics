@@ -320,3 +320,17 @@ hash.each { |key, value|
     p key
     p value
 }
+
+# Nested Loops
+data = {
+    :AEK => {
+        2 => "Pavlopoulos",
+        3 => "Raul",
+        10 => "Melo",
+    }
+    :PAOK => {
+        2 => "Anastasopoulos",
+        3 => "Rico",
+        10 => "Venga",
+    }
+}
