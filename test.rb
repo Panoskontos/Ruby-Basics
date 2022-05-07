@@ -407,11 +407,17 @@ class Vehicle
     # geters and setters
     # on the values you want to edit 
     # outside of the class
-    attr_accessor :name :price
+    attr_accessor :name, :price
+
+    # class variables
+    @@total_instances = 0
+
     # initialize
     def initialize(name)
         @name = name
         @price = price
+
+        @@total_instances +=1
     end
     
     # method
@@ -427,12 +433,19 @@ class Vehicle
 
     # class methods that will give class info
     def self.printType
-        p "This is a class for Vehivles"
+        p "This is a class for Vehicles"
+    end
+   
+    def self.printTotalInstances
+        p @@total_instances
     end
 end
 
 car = Vehicle.new("Honda")
+car2 = Vehicle.new("BMW")
 car.printInfo
 car.name = "Benz"
 car.printInfo
 
+Vehicle.printType
+Vehicle.printTotalInstances
