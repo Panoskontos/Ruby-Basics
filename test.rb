@@ -375,3 +375,20 @@ unless (a>b)
 else
     p "Unless false"
 end
+
+# If you use else if more than 2 times then you should start using cases
+p "What is your signal"
+signal = gets.chomp.to_i
+p signal
+# signal = 1
+
+case 
+when signal == 1
+    p "Activate"
+when signal == 2
+    p "Dectivate"
+when signal == 3
+    p "Reload"
+when signal == 4
+    p "Pause"
+end
