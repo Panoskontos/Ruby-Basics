@@ -293,6 +293,12 @@ while i<10 do
 end
 
 # times loop
-10.times do
-    puts "Hey my name is Joe"
+5.times do
+    puts "Hey my name is Panos"
+end
+
+# array iteration
+users = ["Joe","Nick","Mark"]
+users.each do |x|
+    puts x
 end
