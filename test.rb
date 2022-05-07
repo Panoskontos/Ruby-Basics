@@ -353,3 +353,18 @@ users = [
 ]
 
 users.each {|x| x.each { |y| p y}}
+
+
+# Conditionals
+ a= 20
+ b = 30
+ c = a + b
+ d =a 
+
+ if a==b
+    p "all good"
+ elsif a<b
+    p "Normal" 
+ else 
+    p "all bad"
+ end
