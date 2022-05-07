@@ -407,10 +407,11 @@ class Vehicle
     # geters and setters
     # on the values you want to edit 
     # outside of the class
-    attr_accessor :name
+    attr_accessor :name :price
     # initialize
     def initialize(name)
         @name = name
+        @price = price
     end
     
     # method
@@ -422,6 +423,11 @@ class Vehicle
 
     def newBuyer
         p "You just bought a new #{name}"
+    end
+
+    # class methods that will give class info
+    def self.printType
+        p "This is a class for Vehivles"
     end
 end
 
