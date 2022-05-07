@@ -351,3 +351,5 @@ users = [
     ["Pit","26","NY"],
     ["Panos","26","ATH"],
 ]
+
+users.each {|x| x.each { |y| p y}}
