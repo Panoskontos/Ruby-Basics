@@ -291,3 +291,8 @@ while i<10 do
     puts i
     i+=1
 end
+
+# times loop
+10.times do
+    puts "Hey my name is Joe"
+end
