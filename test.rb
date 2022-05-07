@@ -401,9 +401,13 @@ car2 = 6000
 total = (car1 < car2) ? "It is cheap" : "It is expensive"
 p total
 
-# class
+ # ------------------ classes ------------------
 
 class Vehicle
+    # geters and setters
+    # on the values you want to edit 
+    # outside of the class
+    attr_accessor :name
     # initialize
     def initialize(name)
         @name = name
@@ -412,8 +416,17 @@ class Vehicle
     # method
     def printInfo
         p @name
+        # you can also put methods that will get called!
+        self.newBuyer
+    end
+
+    def newBuyer
+        p "You just bought a new #{name}"
     end
 end
 
 car = Vehicle.new("Honda")
 car.printInfo
+car.name = "Benz"
+car.printInfo
+
