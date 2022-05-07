@@ -277,3 +277,9 @@ p user
 # get all keys
 p user.keys
 p user.values
+
+
+# loops
+for i in 0..100
+    puts i
+end
