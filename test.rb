@@ -480,3 +480,26 @@ end
 kotuk = Cat.new("Kallas")
 kotuk.printName
 kotuk.CreatedBy
+
+
+# Modules
+
+module App
+    def printLocation
+        p "This app was created in ATH with name #{@name}"
+    end 
+end
+
+class MyClass
+    # Adds all methods inside of Module 
+    include App
+    attr_accessor :name
+
+    def initialize(name)
+        @name=name
+    end
+
+end
+
+c = MyClass.new('Panos')
+c.printLocation
