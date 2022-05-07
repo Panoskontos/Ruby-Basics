@@ -316,3 +316,7 @@ hash = {
     :location => "ATH"
 }
 
+hash.each { |key, value|  
+    p key
+    p value
+}
