@@ -377,10 +377,10 @@ else
 end
 
 # If you use else if more than 2 times then you should start using cases
-p "What is your signal"
-signal = gets.chomp.to_i
-p signal
-# signal = 1
+# p "What is your signal"
+# signal = gets.chomp.to_i
+# p signal
+signal = 1
 
 case 
 when signal == 1
@@ -392,3 +392,11 @@ when signal == 3
 when signal == 4
     p "Pause"
 end
+
+# Ternary operator
+car1 = 3000
+car2 = 6000
+
+# 1 liner if <3
+total = (car1 < car2) ? "It is cheap" : "It is expensive"
+p total
